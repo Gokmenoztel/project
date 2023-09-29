@@ -1,0 +1,349 @@
+body a {
+    font-family: 'roboto';
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+body .navbar nav {
+    background-color: #323232;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.pageWrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.homeBanner{
+    position: relative;
+  }
+  .rectanglehome{
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    object-fit: cover;
+}
+  
+
+.imgWrapper{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* height: 470px;
+    width: 672px;*/
+}
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+ul {
+
+    flex: 1;
+    padding-right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.banner-button {
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 7rem;
+    width: 280px;
+    height: 70px;
+    background-color: #323232;
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 86px;
+    font-family: 'roboto';
+
+}
+
+
+.hmo {
+    padding: 600px;
+    text-align: center
+}
+
+.usttablo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sansr {
+    padding-left: 3450px;
+}
+
+.hsnn {
+    margin-left: 3rem;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'roboto';
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+h2 {
+    display: none;
+}
+
+.paragraf {
+    padding-right:  20rem;
+font-family: 'roboto';
+    margin-left: 110px;
+    margin-top: -15px;
+    font-size: 35px;
+}
+
+.mobilepg {
+    display: none;
+}
+
+.bgwhite {
+
+        margin-top: 5px;
+        margin-left: 20px;
+        border-radius: 86px;
+        background: #FFF;
+        width: 189px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.bgwhite a {
+    margin-top: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+.anasayfa a {
+    margin: 0;
+    margin-left: 3rem;
+    margin-top: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+.anasekmee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:1500px) {
+    .nav-wrapper {
+        width: 75%;
+    }
+
+    .paragraf {
+        font-family: 'roboto';
+        margin-left: 55px;
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    .bgwhite {
+        margin-top: 5px;
+        margin-left: -20px;
+        border-radius: 86px;
+        background: #FFF;
+        width: 189px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        padding-top: 5rem;
+        margin-left: 3rem;
+        font-size: 85px;
+        font-family: 'roboto';
+    }
+
+    .homeBanner .imgWrapper {
+        position: absolute; 
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 625px;
+        height: 628px;
+    }
+
+    .banner-button {
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: 3rem;
+        width: 290px;
+        height: 70px;
+        background-color: #323232;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 86px;
+        font-family: 'robotoregular';
+    }
+}
+@media screen and (max-width:998px) {
+    .imgWrapper {
+        display: none;
+    }
+
+    .paragraf {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        font-size: 40px;
+        font-size: 80px;
+        padding-left: 3rem;
+        font-family: 'roboto';
+    }
+
+    .mobilepg {
+        display: flex;
+        font-size: 35px;
+        margin-top: 0rem;
+        margin-left: 3.4rem;
+        font-family: 'roboto';
+    }
+
+    .banner-button {
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: 3rem;
+        width: 280px;
+        height: 70px;
+        background-color: #323232;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 86px;
+        font-family: 'roboto';
+    }
+
+}
+@media (max-width:600px) {
+    .imgWrapper {
+        display: none;
+    }
+    .imgWrapper {
+        display: none;
+    }
+
+    .paragraf {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        font-size: 70px;
+        padding-left: 2rem;
+    }
+
+    .mobilepg {
+        display: flex;
+        font-size: 28px;
+        margin-top: 0rem;
+        margin-left: 2.4rem;
+    }
+
+    .banner-button {
+        cursor: pointer;
+        margin-top: 40px;
+        margin-left: 2rem;
+        width: 280px;
+        height: 70px;
+        background-color: #323232;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 86px;
+        font-family: 'roboto';
+    }
+}
+
+@media (max-width:480px) {
+    .imgWrapper {
+        display: none;
+    }
+    .imgWrapper {
+        display: none;
+    }
+    .imgWrapper {
+        display: none;
+    }
+
+    .paragraf {
+        display: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        font-size: 70px;
+        padding-left: 0.5rem;
+    }
+
+    .mobilepg {
+        display: flex;
+        font-size: 24px;
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+
+    .banner-button {
+        cursor: pointer;
+        margin-top: 35px;
+        margin-left: 0.5rem;
+        width: 220px;
+        height: 65px;
+        background-color: #323232;
+        font-size: 30px;
+        color: aliceblue;
+        border-radius: 86px;
+        font-family: 'robotoregular';
+    }
+}
+
+
+@media (max-width:380px) {
+    .imgWrapper {
+        display: none;
+    }
+}
+

@@ -1,0 +1,401 @@
+body a {
+    font-family: 'roboto';
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.ustt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+
+ul {
+
+    flex: 1;
+    padding-right: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 1rem;
+    width: 195px;
+    height: 55px;
+    background-color: white;
+    font-size: 35px;
+    color: #323232;
+    border-radius: 86px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hassan {
+    margin-left: 3rem;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25rem;
+}
+
+.content.aboutContent {
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+    margin: 0;
+}
+
+.content.aboutContent .ressm {
+    margin: 0;
+}
+
+.content.aboutContent .ressm img {
+    margin: 0;
+}
+
+.pageWrapper {
+    display: flex;
+    padding: 0 5vw;
+    justify-content: space-between;
+}
+
+.leftWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+}
+
+.leftWrapper .socialMedias {
+    display: flex;
+    align-items: center;
+    padding-left: 9rem;
+}
+
+/*.leftWrapper .textConent {
+     padding-right: 27rem;
+}
+*/
+.ressm {
+    padding-top: 3rem;
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 443px;
+    height: 756px;
+}
+
+.rectangle {
+    min-width: 100%;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+h1 {
+    padding-top: 2rem;
+    font-family: 'roboto';
+    text-decoration: underline;
+    font-size: 60px;
+    /* margin-left: 8rem; */
+    margin-top: 15px;
+    overflow: hidden
+}
+
+h2 {
+    font-family: 'roboto';
+    margin-top: -1rem;
+    font-size: 45px;
+    /* margin-left: 6rem; */
+}
+
+.yazi {
+    font-family: 'roboto';
+    font-size: 30px;
+    /* margin-left: 6rem; */
+}
+
+.yazi2 {
+    font-family: 'roboto';
+    font-size: 30px;
+    /* margin-left: 6rem; */
+}
+
+.bgwhite {
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 86px;
+    background: #FFF;
+    width: 189px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobiletext {
+    display: none;
+}
+
+body .navbar nav {
+    background-color: #323232;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bgwhite a {
+    margin-top: -5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: black;
+
+}
+
+.anasayfa a {
+    margin: 0;
+    margin-left: 3rem;
+    margin-top: 20px;
+}
+
+.sosyalmedya {
+    display: none;
+}
+
+.phoneaboutt {
+    display: none;
+}
+
+.insta {
+    display: flex;
+    /* padding-left: 3rem; */
+}
+
+.insta a {
+    /* padding-left: 6rem; */
+    margin-top: 0rem;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+/* .insta a:first-child{
+     bu insta kapsayıcısı altındakı ilk a yı secer
+   } */
+/* .insta a:last-child{
+    bu insta kapsayıcısı altındakı son a yı secer
+  } */
+/* .insta a:nth-child(1){
+    bu insta kapsayıcısı altındakı 1. a yı secer
+  } */
+/* .insta a:nth-child(3){
+    bu insta kapsayıcısı altındakı 3. a yı secer
+  } */
+.insta a+a {
+    margin-left: 15px;
+}
+
+.insta a img {
+    width: 100%;
+}
+
+@media screen and (max-width:1500px) {
+    .insta a img {
+        width: 50px;
+    }
+
+    .nav-wrapper {
+        width: 75%;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:998px) {
+    h2 {
+        font-family: 'roboto';
+        margin-top: -1rem;
+        font-size: 45px;
+        margin-left: 3rem;
+    }
+
+    .nav-wrapper {
+        width: 73%;
+    }
+
+    h1 {
+        padding-top: 0rem;
+        font-family: 'roboto';
+        text-decoration: underline;
+        font-size: 60px;
+        margin-left: 3rem;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+
+    .yazi {
+        font-family: 'roboto';
+        font-size: 26px;
+        margin-left: 3rem;
+    }
+
+    .yazi2 {
+        display: none;
+    }
+
+    /*.rectangle {
+        width: 340px;
+        height: 365px;
+    }*/
+
+
+    .leftWrapper {
+        width: 100%;
+    }
+
+
+    .pageWrapper {
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .mobiletext {
+        display: block;
+        font-size: 26px;
+        font-family: 'roboto';
+        padding-left: 3rem;
+    }
+
+    .ressm {
+        margin-top: 2rem;
+        object-fit: cover;
+        border-radius: 39px;
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        width: 45%;
+    }
+
+    .insta {
+        margin-top: 0%;
+        padding-left: 3rem;
+    }
+
+    .insta a img {
+        width: 50px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    h2 {
+        font-family: 'roboto';
+        margin-top: -1rem;
+        font-size: 45px;
+        margin-left: 1rem;
+    }
+
+    h1 {
+        padding-top: 0rem;
+        font-family: 'roboto';
+        text-decoration: underline;
+        font-size: 60px;
+        margin-left: 1rem;
+        margin-top: 15px;
+        overflow: hidden;
+    }
+
+    .yazi {
+        font-family: 'roboto';
+        font-size: 23px;
+        margin-left: 1rem;
+    }
+
+    .yazi2 {
+        display: none;
+    }
+
+    /*.rectangle {
+        width: 330px;
+        height: 365px;
+    }*/
+
+    .mobiletext {
+        display: block;
+        font-size: 23px;
+        font-family: 'roboto';
+        padding-left: 1rem;
+    }
+
+    .ressm {
+        margin-top: 0rem;
+        object-fit: cover;
+        border-radius: 39px;
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        height: 40%;
+        width: 65%;
+    }
+
+    .insta {
+        margin-top: 0%;
+    }
+
+}
+
+
+
+
+@media (max-width:480px) {
+   
+
+
+}
+
+
+@media (max-width:380px) {
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .yazi {
+        display: none;
+    }
+
+    .yazi2 {
+        display: none;
+    }
+
+}
